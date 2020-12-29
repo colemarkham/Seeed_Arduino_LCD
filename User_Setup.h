@@ -140,6 +140,7 @@
 
 //For seeed GroveUI - u
 #if  defined(ARDUINO_ARCH_SAMD) && defined(SEEED_GROVE_UI_WIRELESS)
+#define USE_RTOS 1
 #define HASSPI 1
 #define SPICOM   LCD_SPI
 #define TFT_CS   LCD_SS_PIN

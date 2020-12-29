@@ -16,6 +16,10 @@
 #include "TFT_eSPI.h"
 #include "TFT_Interface.h"
 
+#ifdef USE_RTOS
+    #include <FreeRTOS.h>
+#endif
+
 #ifdef TOUCH
     #ifdef FOURWIRETOUCH
         #include "Extensions/Touch_Drivers/4WiresTouch/defined.h"

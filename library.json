@@ -6,13 +6,18 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/Seeed-Studio/Seeed_Arduino_LCD"
+    "url": "https://github.com/colemarkham/Seeed_Arduino_LCD"
   },
   "authors":
   [
     {
         "name": "Baozhu Zuo",
         "email": "baozhu.zuo@gmail.com",
+        "maintainer": false
+    },
+    {
+        "name": "Cole Markham",
+        "email": "cole@ccmcomputing.net",
         "maintainer": true
     }
   ],
